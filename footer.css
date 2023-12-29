@@ -1,0 +1,38 @@
+.footer {
+  background-color: black;
+  color: azure;
+}
+
+.footer-div {
+  height: 600px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: center;
+  align-content: center;
+  margin-left: 400px;
+}
+
+.p {
+  grid-column: 2;
+  margin-left: 300px;
+  font-size: 3rem;
+}
+
+.texto {
+  margin-top: 100px;
+  text-align: start;
+  font-size: 2rem;
+}
+.email {
+  text-align: start;
+  font-size: 3rem;
+  position: relative;
+  left: 300px;
+  top: 200px;
+}
+
+.p,
+.email {
+  position: relative;
+  bottom: 180px;
+}

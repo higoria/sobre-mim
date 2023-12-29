@@ -1,0 +1,94 @@
+.formaçao {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-left: 395px;
+  margin-top: 100px;
+  background: #141414;
+  height: 700px;
+  color: aliceblue;
+  margin-left: auto;
+}
+
+.formaçao .div-sub .sub {
+  font-size: 7rem;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 10px;
+  word-break: break-all;
+  max-width: 3ch;
+  color: white;
+  margin-left: 400px;
+  margin-top: 100px;
+}
+.formaçao .formaçao-div {
+  display: grid;
+  gap: 50px;
+  margin: auto;
+  position: relative;
+  left: 900px;
+  top: -430px;
+}
+
+.formaçao-div p {
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.formaçao-div strong {
+  font-family: "Fira Sans";
+}
+
+.formaçao-div .faculdade-lista {
+  display: grid;
+  background-color: black;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  width: 300px;
+  border-radius: 10px;
+  justify-items: start;
+}
+
+.faculdade-lista {
+  display: grid;
+}
+.faculdade-lista .faculdade-tipo {
+  position: relative;
+  top: -30px;
+  color: gray;
+}
+
+.list .instituiçao {
+  position: relative;
+  top: 30px;
+  color: gray;
+}
+
+.formaçao::after {
+  position: relative;
+  content: "";
+  background-color: greenyellow;
+  z-index: 2;
+  width: 6px;
+  height: 20px;
+  top: 294px;
+  left: 190px;
+}
+.cursos {
+  position: relative;
+  bottom: 160px;
+  left: 30px;
+}
+
+.detalhe {
+  position: relative;
+  right: 500px;
+  top: 290px;
+  z-index: 11;
+}
+
+.simbolo {
+  margin-left: -35px;
+  margin-top: 0px;
+  margin-bottom: -20px;
+}

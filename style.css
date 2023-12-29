@@ -1,0 +1,10 @@
+@import "header.css";
+@import "global.css";
+@import "main.css";
+@import "section.css";
+@import "formaçao.css";
+@import "footer.css";
+
+body {
+  overflow-x: hidden;
+}
