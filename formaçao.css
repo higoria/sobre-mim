@@ -92,3 +92,113 @@
   margin-top: 0px;
   margin-bottom: -20px;
 }
+@media (max-width: 576px) {
+  .formaçao {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0px;
+    margin-top: 0px;
+    background: #141414;
+    height: 700px;
+    color: aliceblue;
+    margin-left: 0px;
+    margin-bottom: -100px;
+  }
+  .formaçao .div-sub .sub {
+    font-size: 3rem;
+    text-transform: uppercase;
+    line-height: normal;
+    letter-spacing: normal;
+    word-break: normal;
+    max-width: none;
+    color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  .formaçao .formaçao-div {
+    display: grid;
+    gap: 50px;
+    margin: auto;
+    position: relative;
+    left: 20px;
+    top: 30px;
+  }
+  .formaçao-div p {
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 1.3rem;
+    max-width: 42ch;
+    padding-left: 30px;
+  }
+  .faculdade-lista {
+    display: grid;
+    margin-left: 30px;
+  }
+  .formaçao-extra h3 {
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+  .simbolo {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+  }
+  .formaçao::after {
+    display: none;
+  }
+}
+@media (max-width: 415px) {
+  .formaçao {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0px;
+    margin-top: 0px;
+    background: #141414;
+    height: 700px;
+    color: aliceblue;
+    margin-left: 0px;
+    margin-bottom: -100px;
+  }
+  .formaçao .div-sub .sub {
+    font-size: 3rem;
+    text-transform: uppercase;
+    line-height: normal;
+    letter-spacing: normal;
+    word-break: normal;
+    max-width: none;
+    color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  .formaçao .formaçao-div {
+    display: grid;
+    gap: 50px;
+    margin: auto;
+    position: relative;
+    left: 20px;
+    top: 30px;
+  }
+  .formaçao-div p {
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 1.3rem;
+    max-width: 29ch;
+    margin-left: -15px;
+  }
+  .faculdade-lista {
+    display: grid;
+    margin-left: 10px;
+  }
+  .formaçao-extra h3 {
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+  .simbolo {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+  }
+  .formaçao::after {
+    display: none;
+  }
+}
