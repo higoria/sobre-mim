@@ -12,7 +12,7 @@
 }
 
 .introduçao h1 {
-  font-size: 5.4rem;
+  font-size: 6.5rem;
   flex-wrap: wrap;
   margin-right: 300px;
 }
@@ -20,8 +20,8 @@
 .introduçao .detalhe {
   width: 190px;
   position: absolute;
-  left: 750px;
-  top: 90px;
+  left: 650px;
+  top: 70px;
   z-index: -1;
 }
 
