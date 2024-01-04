@@ -65,14 +65,14 @@
     letter-spacing: normal;
     word-break: normal;
     max-width: max-content;
-    padding-left: 30px;
+    padding-left: 0px;
     padding-top: 60px;
   }
 
   .exp p {
     font-size: 1.6rem;
     font-family: sans-serif;
-    padding-left: 0px;
+    margin-left: 0px;
     padding-top: 30px;
   }
 }

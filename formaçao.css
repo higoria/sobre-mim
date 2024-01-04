@@ -160,14 +160,14 @@
     margin-bottom: -100px;
   }
   .formaçao .div-sub .sub {
-    font-size: 3rem;
+    font-size: 2.4rem;
     text-transform: uppercase;
     line-height: normal;
     letter-spacing: normal;
     word-break: normal;
     max-width: none;
     color: white;
-    margin-left: 50px;
+    margin-left: 20px;
     margin-top: 30px;
   }
   .formaçao .formaçao-div {
@@ -183,19 +183,19 @@
     color: #ffffff;
     font-size: 1.3rem;
     max-width: 29ch;
-    margin-left: -15px;
+    margin-left: -30px;
   }
   .faculdade-lista {
     display: grid;
-    margin-left: 10px;
+    margin-left: 0px;
   }
   .formaçao-extra h3 {
-    margin-left: 30px;
+    margin-left: 0px;
     margin-bottom: 10px;
   }
   .simbolo {
-    margin-left: 0px;
-    margin-top: 0px;
+    margin-left: -30px;
+    margin-top: 10px;
     margin-bottom: -20px;
   }
   .formaçao::after {
