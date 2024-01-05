@@ -105,7 +105,7 @@
   }
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1450px) and (min-width: 1440px) {
   .texto {
     margin-top: 200px;
     margin-left: -100px;
@@ -123,5 +123,30 @@
     margin-top: 280px;
     margin-left: -110px;
     font-size: 3rem;
+  }
+}
+@media (max-width: 1280px) and (min-width: 1280px) {
+  .texto {
+    margin-top: 200px;
+    margin-left: -200px;
+    font-size: 2rem;
+  }
+  .email {
+    font-size: 3rem;
+    position: relative;
+    left: -500px;
+    top: 520px;
+  }
+  .p {
+    grid-column: 1/-1;
+    box-sizing: border-box;
+    margin-top: 280px;
+    margin-left: -210px;
+    font-size: 3rem;
+  }
+  .footer {
+    background-color: black;
+    color: azure;
+    height: 850px;
   }
 }

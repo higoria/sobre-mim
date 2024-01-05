@@ -203,7 +203,7 @@
   }
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1450px) and (min-width: 1440px) {
   .formaçao .div-sub .sub {
     font-size: 7rem;
     text-transform: uppercase;
@@ -236,5 +236,55 @@
     right: 600px;
     top: 150px;
     z-index: 11;
+  }
+}
+@media (max-width: 1280px) and (min-width: 1280px) {
+  .formaçao .div-sub .sub {
+    font-size: 7rem;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 0px;
+    word-break: break-all;
+    max-width: 3ch;
+    color: white;
+    margin-left: 200px;
+    margin-top: 100px;
+  }
+  .formaçao-div p {
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 1.5rem;
+    grid-column: 1;
+    max-width: 50ch;
+    margin-left: -400px;
+  }
+  .formaçao::after {
+    position: relative;
+    content: "";
+    background-color: greenyellow;
+    z-index: 2;
+    width: 6px;
+    height: 20px;
+    top: 305px;
+    left: 80px;
+  }
+  .detalhe {
+    position: relative;
+    right: 700px;
+    top: 290px;
+    z-index: 11;
+  }
+  .faculdade-lista {
+    margin-left: -400px;
+  }
+  .cursos h3 {
+    position: relative;
+    right: 400px;
+    margin-bottom: 20px;
+  }
+  .simbolo {
+    margin-left: -430px;
+    margin-top: 10px;
+    margin-bottom: -20px;
   }
 }

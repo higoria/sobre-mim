@@ -63,7 +63,32 @@
   }
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1450px) and (min-width: 1440px) {
+  .introduçao h1 {
+    font-size: 4.5rem;
+    margin-left: 500px;
+  }
+  .introduçao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .introduçao img {
+    width: 300px;
+    margin-left: 455px;
+  }
+  .introduçao .detalhe {
+    width: 120px;
+    position: absolute;
+    left: 300px;
+    top: 60px;
+    z-index: -1;
+  }
+  .introduçao p {
+    margin-left: 500px;
+  }
+}
+
+@media (max-width: 1280px) and (min-width: 1280px) {
   .introduçao h1 {
     font-size: 4.5rem;
     margin-left: 500px;

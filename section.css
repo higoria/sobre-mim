@@ -77,7 +77,7 @@
   }
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1450px) and (min-width: 1440px) {
   .exp .experiência-h2 {
     font-size: 7rem;
     text-transform: uppercase;
@@ -87,6 +87,25 @@
     word-break: break-all;
     max-width: 4ch;
     margin-left: -100px;
+  }
+  .exp p {
+    text-align: left;
+    font-size: 1.9rem;
+    font-family: sans-serif;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 1280px) and (min-width: 1280px) {
+  .exp .experiência-h2 {
+    font-size: 7rem;
+    text-transform: uppercase;
+    line-height: 1;
+    color: #111;
+    letter-spacing: 10px;
+    word-break: break-all;
+    max-width: 4ch;
+    margin-left: -190px;
   }
   .exp p {
     text-align: left;
