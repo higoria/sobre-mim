@@ -1,6 +1,7 @@
 .footer {
   background-color: black;
   color: azure;
+  height: 715px;
 }
 
 .footer-div {
@@ -101,5 +102,26 @@
     left: -280px;
     font-size: 2rem;
     margin-bottom: -100px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .texto {
+    margin-top: 200px;
+    margin-left: -100px;
+    font-size: 2rem;
+  }
+  .email {
+    font-size: 3rem;
+    position: relative;
+    left: -450px;
+    top: 400px;
+  }
+  .p {
+    grid-column: 1/-1;
+    box-sizing: border-box;
+    margin-top: 280px;
+    margin-left: -110px;
+    font-size: 3rem;
   }
 }
